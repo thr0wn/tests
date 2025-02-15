@@ -1,11 +1,11 @@
 {
   "name": "@thr0wn/tests",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js",
     "docs": "npx jsdoc -d ./docs -c ./conf.json index.js README.md",
-    "publish": "npm publish --access=public"
+    "release": "npm publish --access=public"
   },
   "keywords": [
     "assert",
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/thr0wn/tests/issues"
   },
-  "homepage": "https://www.npmjs.com/package/@thr0wn/tests"
+  "homepage": "https://thr0wn.github.io/tests/"
 }
