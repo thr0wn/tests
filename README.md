@@ -2,7 +2,7 @@
 
 ### Installation
 ```bash
-npm i tests --save
+npm i @thrown/tests --save
 ```
 
 ### Usage
