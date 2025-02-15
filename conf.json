@@ -12,7 +12,6 @@
   },
   "templates": {
     "cleverLinks": false,
-    "monospaceLinks": false,
-    "destination": "./docs/",
+    "monospaceLinks": false
   }
 }

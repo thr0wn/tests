@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js",
-    "docs": "npx jsdoc -c ./conf.json index.js README.md"
+    "docs": "npx jsdoc -d ./docs -c ./conf.json index.js README.md"
   },
   "keywords": ["assert", "test", "tests"],
   "author": "",
