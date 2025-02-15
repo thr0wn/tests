@@ -14,7 +14,7 @@ const sum = (a, b) => a + b;
 tests.equals(sum(1, 1), 2, "sum(1, 1)");
 ```
 
-## Doc
+### Doc
 ```bash
 npm run doc
 ```
