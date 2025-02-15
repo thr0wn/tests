@@ -1,17 +1,22 @@
-## test.js
+## tests.js
 
 ### Installation
 ```bash
-npm i test --save
+npm i tests --save
 ```
 
 ### Usage
 ```javascript
-const test = require('test');
+const tests = require('tests');
 
 const sum = (a, b) => a + b;
 
-test.equals(sum(1, 1), 2, "sum(1, 1)");
+tests.equals(sum(1, 1), 2, "sum(1, 1)");
+```
+
+## Doc
+```bash
+npm run doc
 ```
 
 ### About

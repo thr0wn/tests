@@ -30,6 +30,7 @@ let index = 0;
  */
 
 /**
+ * Not working
  * Test function type definition.
  * @typedef {function} test
  * @param {values} values - input values.
@@ -66,7 +67,7 @@ tests.equals = (value1, value2, message) => {
  * @returns {boolean}
 */
 function execTest({ value1, value2} , { message, test }) {
-  console.info(`Assertion ${index}${message ? `: ${message}` : ""}`)
+  console.info(`Test ${index}${message ? `: ${message}` : ""}`)
   const result = test(value1, value2);
   if (result) {
     console.info("\tsuccess");

@@ -1,13 +1,13 @@
 {
-  "name": "test",
+  "name": "tests",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js",
-    "doc": "npx jsdoc -c ./conf.json index.js README.md"
+    "docs": "npx jsdoc -c ./conf.json index.js README.md"
   },
-  "keywords": ["assert", "test"],
+  "keywords": ["assert", "test", "tests"],
   "author": "",
-  "license": "ISC",
-  "description": "Tiny test util"
+  "license": "MIT",
+  "description": "Tiny test library"
 }
