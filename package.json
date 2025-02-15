@@ -1,13 +1,28 @@
 {
-  "name": "tests",
+  "name": "@thr0wn/tests",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js",
     "docs": "npx jsdoc -d ./docs -c ./conf.json index.js README.md"
   },
-  "keywords": ["assert", "test", "tests"],
-  "author": "",
+  "keywords": [
+    "assert",
+    "test",
+    "tests"
+  ],
+  "author": "thr0wn",
   "license": "MIT",
-  "description": "Tiny test library"
+  "description": "Tiny test library",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thr0wn/tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thr0wn/tests/issues"
+  },
+  "homepage": "https://github.com/thr0wn/tests#readme"
 }
